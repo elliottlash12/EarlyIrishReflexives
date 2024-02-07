@@ -1,0 +1,20 @@
+Column name	Column Description
+LEMMA	A standardized form the of the lemma.
+VERB TYPE	A short description of the formation of the verb. The types are: compounds (preverb + verbal root, or a string of preverbs + verbal root), deponents (with the ending -th(a)ir in the third person singular present tense), simple (not compount), and -aig derivatives from a noun or adjective. Compound and simple verbs can be deponents and -aig derivatives. 
+MEANING	A summary of the chief meanings found in the DIL entry for the verb.
+DIL LINK	A link to the DIL entry for the verb.
+REFLEXIVE TYPE	The rough semantic or syntactic class of the verb, according to the types defined in the Mouton Handbooks of Indo-European Typology questionnaire/introduction.
+REFLEXIVE MARKING	The actual syntactic category that is reflexive: either it is pronominal or it is the complement of a preposition. Sometimes both types are attested.
+NOTE ON VERB	A note on the general properties or attestation of the verb.
+OPPOSITIONAL?	This asks the question whether there are non-reflexive transitive examples opposed to the reflexive usage.
+OPPOSITIONAL EXAMPLE	A transitive example if available.
+OPPOSITIONAL EXAMPLE TRANSLATION	A translation of the transitive example.
+OPPOSITIONAL EXAMPLE LOCUS	A citation where the transitive example can be found. Also see the DIL entry for the verb.
+OPPOSITIONAL CONTEMPORARY OIR?	This asks the question whether the example is found in manuscripts compiled during the Old Irish period (600-900AD).
+NOTE ON OPPOSITIONAL TRANSITIVE	A note on the properties or attestation of the oppositional transitive example.
+REFLEXIVE MARKING IS REDUNDANT	This asks the question whether there are non-reflexive intransitive examples.
+NON-REDUNDANT EXAMPLE	A non-reflexive intransitive example if available.
+NON-REDUNDANT EXAMPLE TRANSLATION	A translation of the non-reflexive transitive example.
+NON-REDUNDANT EXAMPLE LOCUS	A citation where the non-reflexive intransitive example can be found. Also see the DIL entry for the verb.
+NON-REDUNDANT IN CONTEMPORARY OIR?	This asks the question whether the example is found in manuscripts compiled during the Old Irish period (600-900AD).
+NOTE ON NON-REDUNDANT EXAMPLE	A note on the properties or attestation of the non-reflexive intransitive example.
