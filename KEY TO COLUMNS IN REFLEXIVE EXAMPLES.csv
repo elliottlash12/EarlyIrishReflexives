@@ -1,25 +1,25 @@
-Column Name	Description
-Source	The manuscript or edition where the example is found.
-Locus 1	This contains a more precise locus. The information has various forms: folio column and gloss number (e.g. 023b04 =  folio 23, column b, gloss 4). The information can also be a citation of a standard edition, e.g Gwynn.1913.472.fol.179v1 or Thes.i.493.123. If the Source is found in POMIC (https://www.dias.ie/celt/celt-publications-2/celt-the-parsed-old-and-middle-irish-corpus-pomic/) then this column simply specifies that this is in POMIC. If the Source is an edition, this column gives the page number, and sometimes the line or verse number.
-Loucs 2	This contains a more precise locus. The information comes in variou sforms: an folio colum and gloss number to the one given in Locus 1 if any, or the POMIC sentence number if  the value of Locus 2 is “POMIC”, or the title of the text or manuscript (sometimes accompanied by a line number), or the Journal abbreviation and volume number if the Source is an edition.
-Locus 3	This contains the CorPH Sentence ID (https://chronhib.maynoothuniversity.ie/chronhibWebsite/home) or a link to a digital version of the text and page where the example is found.
-Full Gloss	The full sentence or gloss.
-Translation	The translation of the full sentence or gloss
-IMMEDIATE CONTEXT	The subpart of the full sentence/gloss that contains a possible reflexive item. The immediate context is typically, but not exclusively, a clause.
-IMMEDIATE CONTEXT TRANSLATION	The translation of the IMMEDIATE CONTEXT.
-MORPH	The constituent containing a possible reflexive item.
-MORPH TRANS	The translation of the MORPH column.
-MORPH ANALYSIS	The analysis of the MORPH column.
-MORPH CONTEXT	This contains an analysis of the Function of the morph (subject, object, complement, predicate, cleft pivot, etc), and the syntactic category in which the morph is embedded (noun phrase, verbal noun, prepositional phrase, etc.) or which immediately dominates the morph (e.g. PRON-, for infixed or suffixed pronouns).
-LEMMA OF MAIN VERB	The lemma of the verb in the IMMEDIATE CONTEXT if any.
-CLAUSAL SUBJECT	The subject in the IMMEDIATE CONTEXT if any.
-SUBJECT ANALYSIS	The analysis of the subject in the IMMEDIATE CONTEXT if any.
-GOV CONTEXT	The subpart of the full sentence/gloss that governs the IMMEDIATE CONTEXT and contains potential coreference between two or more phrases.
-GOV CONTEXT TYPE	This is the analysis of the type of governing context: cleft sentence, elision, or a governing clause headed by a verb
-GOV CONTEXT LEMMA	The lemma of the verb in the GOV CONTEXT.
-GOV CONTEXT SBJ	The subject in the GOV CONTEXT if any.
-GOV CONTEXT SBJ ANALYSIS	The analysis of the subject in the GOV CONTEXT if any.
-SBJ~MORPH COREFERENCE	This shows the coreference between the Morph and the Clausal Subject, if any.
-SBJ~OTHER	This shows the coreference betewen the Clausal Subject or the Governing Context subject and other constituents in the immediate context. 
-MORPH REFLEXIVE	This is designates an example as either reflexive or not, or unclear.
-Note	Notes on the example.
+Column Name,Description
+Source,The manuscript or edition where the example is found.
+Locus 1,This contains a more precise locus. The information has various forms: folio column and gloss number (e.g. 023b04 =  folio 23¢ column b¢ gloss 4). The information can also be a citation of a standard edition¢ e.g Gwynn.1913.472.fol.179v1 or Thes.i.493.123. If the Source is found in POMIC (https://www.dias.ie/celt/celt-publications-2/celt-the-parsed-old-and-middle-irish-corpus-pomic/) then this column simply specifies that this is in POMIC. If the Source is an edition¢ this column gives the page number¢ and sometimes the line or verse number.
+Locus 2,This contains a more precise locus. The information comes in variou sforms: an folio colum and gloss number to the one given in Locus 1 if any¢ or the POMIC sentence number if  the value of Locus 2 is “POMIC”¢ or the title of the text or manuscript (sometimes accompanied by a line number)¢ or the Journal abbreviation and volume number if the Source is an edition.
+Locus 3,This contains the CorPH Sentence ID (https://chronhib.maynoothuniversity.ie/chronhibWebsite/home) or a link to a digital version of the text and page where the example is found.
+Full Gloss,The full sentence or gloss.
+Translation,The translation of the full sentence or gloss
+IMMEDIATE CONTEXT,The subpart of the full sentence/gloss that contains a possible reflexive item. The immediate context is typically¢ but not exclusively¢ a clause.
+IMMEDIATE CONTEXT TRANSLATION,The translation of the IMMEDIATE CONTEXT.
+MORPH,The constituent containing a possible reflexive item.
+MORPH TRANS,The translation of the MORPH column.
+MORPH ANALYSIS,The analysis of the MORPH column.
+MORPH CONTEXT,This contains an analysis of the Function of the morph (subject¢ object¢ complement¢ predicate¢ cleft pivot¢ etc)¢ and the syntactic category in which the morph is embedded (noun phrase¢ verbal noun¢ prepositional phrase¢ etc.) or which immediately dominates the morph (e.g. PRON-¢ for infixed or suffixed pronouns).
+LEMMA OF MAIN VERB,The lemma of the verb in the IMMEDIATE CONTEXT if any.
+CLAUSAL SUBJECT,The subject in the IMMEDIATE CONTEXT if any.
+SUBJECT ANALYSIS,The analysis of the subject in the IMMEDIATE CONTEXT if any.
+GOV CONTEXT,The subpart of the full sentence/gloss that governs the IMMEDIATE CONTEXT and contains potential coreference between two or more phrases.
+GOV CONTEXT TYPE,This is the analysis of the type of governing context: cleft sentence¢ elision¢ or a governing clause headed by a verb
+GOV CONTEXT LEMMA,The lemma of the verb in the GOV CONTEXT.
+GOV CONTEXT SBJ,The subject in the GOV CONTEXT if any.
+GOV CONTEXT SBJ ANALYSIS,The analysis of the subject in the GOV CONTEXT if any.
+SBJ~MORPH COREFERENCE,This shows the coreference between the Morph and the Clausal Subject¢ if any.
+SBJ~OTHER,This shows the coreference betewen the Clausal Subject or the Governing Context subject and other constituents in the immediate context. 
+MORPH REFLEXIVE,This is designates an example as either reflexive or not¢ or unclear.
+Note,Notes on the example.
