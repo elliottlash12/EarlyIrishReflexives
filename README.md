@@ -6,7 +6,7 @@ The second file summarizes information about the lemmas of the verbs found in th
 
 Three supplementary files (KEY TO COLUMNS IN REFLEXIVE EXAMPLES.csv, KEY TO TAGS IN REFLEXIVE EXAMPLES.csv, KEY TO COLUMNS IN REFLEXIVE LEMMAS.csv) provide information about how to read and use the information found in the two main files. They include an explanation of the tags and column headings and the interaction between particular tags and columns.
 
-There is a fourth file (Deponents.csv), which provides the lemmas of three types of deponent verbs in Old Irish: primary, derived (by means of a zero-suffix) and semi-deponent. A fourth type, those derived from non-verbal roots using the suffix -aig are not listed, since this suffix is productive.
+There is a fourth file (Deponents.csv), which provides the lemmas of three types of deponent verbs in Old Irish: primary, derived (by means of a zero-suffix) and semi-deponent. Members of a fourth type, those derived from non-verbal roots using the suffix -aig, are not listed, since this suffix is productive.
 
 All of the files in this dataset are work in progress as of February 2024 and may be updated in the future.
 
