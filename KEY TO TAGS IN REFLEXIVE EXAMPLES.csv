@@ -46,16 +46,3 @@ VBN-OBJ,The constituent so designated is the object of a verbal noun.,MORPH CONT
 VBN-SBJ,The constituent so designated is the subject of a verbal noun.,MORPH CONTEXT¢ SBJ~OTHER,MORPH/MORPH TRANS/MORPH ANALYSIS
 VERB,The governing context for a potential reflexive marker is a clause headed by a verb. For example¢ in Wb.032a09¢ the potential reflexive marker is the pronominal marking in the constituent imgnaís feín ‘in my own presence’ or ‘with myself’ which is found in the infinitival clause abuith imgnaís feín arahireschi ‘him to be in my own presence/with myself becaues of his faithfulness’ which is the complement of the governing verb dofuthrisse ‘I could wish’. This designation is important for tracking coreference across clausal boundaries¢ since there may be coreference between the subject of the governing verb and a consituent in the embedded (lower) clause.,GOV CONTEXT TYPE,GOV CONTEXT
 VERB-SBJ,The consituent so desginated is the subject of a verb in a clause governing an embedded (lower) clause containing a possible reflexive marker.,SBJ~OTHER,GOV CONTEXT/GOV CONTEXT TYPE/GOV CONTEXT SBJ/GOV CONTEXT SBJ ANALYSIS
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,%
-%,
