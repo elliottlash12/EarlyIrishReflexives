@@ -1,61 +1,61 @@
-TAG	DESCRIPTION	USED IN COLUMN(S)	REFERS TO COLUMN(S)
-1	1st Person	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT
-2	2nd Person	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT
-3	3rd Person	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT
-_INTS	Intensive Marker: forms of féin (fadein, fadeisin, fadeisine, fadeisne, fadisin, fanisin, féin, feisin, féisine, feisne, fisin), forms of céin (cadesin, canisin), forms of the Latin lemma ipse, and some other less attested particles.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT
-?	Indicates uncertainty.	EVERY COLUMN	The colum where the tag is found.
-( )	This is used to indicate two situations: (1) the lack of an overt form or (2) in the the Full Gloss, IMMEDIATE CONTEXT, MORPH, and GOV CONTEXT columns as an editorial suggestion that a letter or string of letters be deleted	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS, Full Gloss, IMMEDIATE CONTEXT, MORPH, GOV CONTEXT	MORPH, MORPH TRANS, MORPH ANALYSIS, MORPH CONTEXT, CLAUSAL SUBJECT, SUBJECT ANALYSIS, GOV CONTEXT SBJ, GOV CONTEXT SBJ ANALYSIS 
-+	This is used to indicate that two tags apply simultaneously to a constituent.	GOV CONTEXT TYPE	GOV CONTEXT
-<>	This is used for editorial additions or alternatives in the text.	Full Gloss, IMMEDIATE CONTEXT, MORPH, GOV CONTEXT	The colum where the tag is found.
-=	This is used to indicate that two constituents are coreferential.	SBJ~MORPH COREFERENCE, SBJ~OTHER	MORPH, MORPH TRANS, MORPH ANALYSIS, MORPH CONTEXT, CLAUSAL SUBJECT, SUBJECT ANALYSIS, GOV CONTEXT SBJ, GOV CONTEXT SBJ ANALYSIS 
-≠	This is used to indicate two situations: (1) the lack of two constituents in the context that can be construed as coreferention and (2) the lack of coreference between two constituents that are present in the context.	SBJ~MORPH COREFERENCE, SBJ~OTHER	MORPH, MORPH TRANS, MORPH ANALYSIS, MORPH CONTEXT, CLAUSAL SUBJECT, SUBJECT ANALYSIS, GOV CONTEXT SBJ, GOV CONTEXT SBJ ANALYSIS 
-CLEFT	The governing context for a potential reflexive marker is a cleft sentence. For example, in Wb.007d15 the potential reflexive marker is the 1st person pronominal marking in the constituent form féin ‘on myself’ which is found in the pivot position of the cleft sentence: isform féin doreg hitossuch ‘it is on myself that I will touch at first.’ This designation is important for tracking coreference across clausal boundaries, since cleft sentences consist of two clauses: the pivot (isform féin ‘it is on myself’) and the cleft or relative clause (doreg hitossuch ‘that I will touch at first’). The subject of the cleft clause may or may not be coreferential with an item in the pivot.	GOV CONTEXT TYPE	GOV CONTEXT
-ELIDED	The governing context for a potential reflexive marker is a sentence that contains an elided constituent. For example, in Wb.030c17 the potential reflexive marker is the 3rd person pronominal marking in the constituent asenchassom fadesin ‘his own tradition’ which is the subject of an elided verb which can be identified by the governing context: nistuirmi recht act asenchassom fadesin ‘the Law records them not, but his own tradition [records them].’ This designation is important for tracking coreference across clausal boundaries, since elision usually occurs in the context of two clauses: the antecedent (nistuirmi recht ‘the law records them not’) and clause containing the elided constituent (act dos-rími asenchassom fadesin ‘but his tradition records them’).	GOV CONTEXT TYPE	GOV CONTEXT
-fem	The morph has the value ‘feminine’ for the Gender feature.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-Infixed_Pronoun	The morph is an infixed pronoun in a verbal complex.	MORPH ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS
-masc	The morph has the value ‘masculine’ for the Gender feature.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-N/A	There is no information to report.	EVERY COLUMN	The colum where the tag is found.
-neut	The morph has the value ‘neuter’ for the Gender feature.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-Noun	The morph is a noun.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-NP	The morph is a nominal phrase without any further specifications because the context is fragmentary.	MORPH CONTEXT	MORPH, MORPH TRANS, MORPH ANALYSIS
-NP-CLEFT	The constituent so designated is a nominal pivot in a cleft sentence.	MORPH CONTEXT, SBJ~MORPH COREFERENCE	MORPH, MORPH TRANS, MORPH ANALYSIS
-NP-OBJ	The constituent so designated is a nominal object.	MORPH CONTEXT, SBJ~MORPH COREFERENCE	MORPH, MORPH TRANS, MORPH ANALYSIS
-NP-PRED	The constituent so designated is a nominal predicate.	MORPH CONTEXT, SBJ~MORPH COREFERENCE	MORPH, MORPH TRANS, MORPH ANALYSIS
-NP-SBJ	The constituent so designated is a nominal subject.	MORPH CONTEXT	MORPH, MORPH TRANS, MORPH ANALYSIS
-Null_Pronoun	The morph is a null pronoun, i.e. little pro.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-Overt_Pronoun	The morph is an over pronoun. This often refers to the so-called notae augentes or emphasis pronouns that usually start with /s/. This main forms are som, sa/se, su/siu, si, or ni.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-pl	The morph has the value ‘plural’ for the Number feature.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-POSS	The constituent so designated contains a possessive pronoun.	SBJ~OTHER	MORPH, MORPH TRANS, MORPH ANALYSIS
-Possessive	The morph is a possessive pronoun.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-PP	The morph is a prepositional phrase without any further specifications because the context is fragmentary.	MORPH CONTEXT	MORPH, MORPH TRANS, MORPH ANALYSIS
-PP-COMP	The constituent so designated is the complement of prepositional phrase.	MORPH CONTEXT, SBJ~MORPH COREFERENCE, SBJ~OTHER	MORPH, MORPH TRANS, MORPH ANALYSIS
-PRO	The subject is a null pronominal that can be analysed as big PRO.	SUBJECT ANALYSIS, SBJ~MORPH COREFERENCE, SBJ~OTHER	CLAUSAL SUBJECT
-PRON	The morph is a pronoun without any further specifications because the context is fragmentary.	MORPH CONTEXT, SBJ~MORPH COREFERENCE	MORPH, MORPH TRANS, MORPH ANALYSIS
-PRON-CLEFT	The constituent so designated is the pronominal pivot in a cleft sentence.	MORPH CONTEXT, SBJ~MORPH COREFERENCE	MORPH, MORPH TRANS, MORPH ANALYSIS
-PRON-OBJ	The constituent so designated is a pronominal object, either infixed into the verbal complex or suffixed to a simple verb.	MORPH CONTEXT, SBJ~MORPH COREFERENCE	MORPH, MORPH TRANS, MORPH ANALYSIS
-PRON-PRED	The constituent so designated is a pronominal predicate.	MORPH CONTEXT, SBJ~MORPH COREFERENCE	MORPH, MORPH TRANS, MORPH ANALYSIS
-PRON-SBJ	The constituent so designated is a pronominal subject.	MORPH CONTEXT	MORPH, MORPH TRANS, MORPH ANALYSIS
-Relative	The subject has been relativized.	SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-SBJ	The constituent so designated is the subject.	SBJ~MORPH COREFERENCE, SBJ~OTHER	CLAUSAL SUBJECT, SUBJECT ANALYSIS
-SBJ-CLEFT	The constituent so desgnates is the subject of a cleft or relative clause in a cleft sentence.	SBJ~MORPH COREFERENCE, SBJ~OTHER	GOV CONTEXT, GOV CONTEXT TYPE, GOV CONTEXT SBJ, GOV CONTEXT SBJ ANALYSIS
-sg	The morph has the value ‘singular’ for the Number feature.	MORPH ANALYSIS, SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS, CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-Small Clause	The subject is a small clause.	SUBJECT ANALYSIS, GOV CONTEXT SBJ ANALYSIS	CLAUSAL SUBJECT, GOV CONTEXT, GOV CONTEXT SBJ
-Suffixed_Pronoun	The morph is a suffixed pronoun attached to a simple verb.	MORPH ANALYSIS	MORPH, MORPH TRANS, MORPH ANALYSIS
-UNC	The analysis of the morph within its context is unclear.	MORPH CONTEXT	MORPH, MORPH TRANS, MORPH ANALYSIS
-VBN-OBJ	The constituent so designated is the object of a verbal noun.	MORPH CONTEXT, SBJ~MORPH COREFERENCE, SBJ~OTHER	MORPH, MORPH TRANS, MORPH ANALYSIS
-VBN-SBJ	The constituent so designated is the subject of a verbal noun.	MORPH CONTEXT, SBJ~OTHER	MORPH, MORPH TRANS, MORPH ANALYSIS
-VERB	The governing context for a potential reflexive marker is a clause headed by a verb. For example, in Wb.032a09, the potential reflexive marker is the pronominal marking in the constituent imgnaís feín ‘in my own presence’ or ‘with myself’ which is found in the infinitival clause abuith imgnaís feín arahireschi ‘him to be in my own presence/with myself becaues of his faithfulness’ which is the complement of the governing verb dofuthrisse ‘I could wish’. This designation is important for tracking coreference across clausal boundaries, since there may be coreference between the subject of the governing verb and a consituent in the embedded (lower) clause.	GOV CONTEXT TYPE	GOV CONTEXT
-VERB-SBJ	The consituent so desginated is the subject of a verb in a clause governing an embedded (lower) clause containing a possible reflexive marker.	SBJ~OTHER	GOV CONTEXT, GOV CONTEXT TYPE, GOV CONTEXT SBJ, GOV CONTEXT SBJ ANALYSIS
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		%
-%	
+TAG,DESCRIPTION,USED IN COLUMN(S),REFERS TO COLUMN(S)
+1,1st Person,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT
+2,2nd Person,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT
+3,3rd Person,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT
+_INTS,Intensive Marker: forms of féin (fadein/fadeisin/fadeisine¢ fadeisne/fadisin/fanisin/féin/feisin/feisine/feisne/fisin)¢ forms of céin (cadesin/canisin)¢ forms of the Latin lemma ipse¢ and some other less attested particles.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT
+?,Indicates uncertainty.,EVERY COLUMN,The colum where the tag is found.
+( ),This is used to indicate two situations: (1) the lack of an overt form or (2) in the the Full Gloss¢ IMMEDIATE CONTEXT¢ MORPH¢ and GOV CONTEXT columns as an editorial suggestion that a letter or string of letters be deleted,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS¢ Full Gloss¢ IMMEDIATE CONTEXT¢ MORPH¢ GOV CONTEXT,MORPH/MORPH TRANS/MORPH ANALYSIS/MORPH CONTEXT/CLAUSAL SUBJECT/SUBJECT ANALYSIS/GOV CONTEXT SBJ/GOV CONTEXT SBJ ANALYSIS
++,This is used to indicate that two tags apply simultaneously to a constituent.,GOV CONTEXT TYPE,GOV CONTEXT
+<>,This is used for editorial additions or alternatives in the text.,Full Gloss¢ IMMEDIATE CONTEXT¢ MORPH¢ GOV CONTEXT,The colum where the tag is found.
+=,This is used to indicate that two constituents are coreferential.,SBJ~MORPH COREFERENCE¢ SBJ~OTHER,MORPH/MORPH TRANS/MORPH ANALYSIS/MORPH CONTEXT/CLAUSAL SUBJECT/SUBJECT ANALYSIS/GOV CONTEXT SBJ/GOV CONTEXT SBJ ANALYSIS
+≠,This is used to indicate two situations: (1) the lack of two constituents in the context that can be construed as coreferention and (2) the lack of coreference between two constituents that are present in the context.,SBJ~MORPH COREFERENCE¢ SBJ~OTHER,MORPH/MORPH TRANS/MORPH ANALYSIS/MORPH CONTEXT/CLAUSAL SUBJECT/SUBJECT ANALYSIS/GOV CONTEXT SBJ/GOV CONTEXT SBJ ANALYSIS
+CLEFT,The governing context for a potential reflexive marker is a cleft sentence. For example¢ in Wb.007d15 the potential reflexive marker is the 1st person pronominal marking in the constituent form féin ‘on myself’ which is found in the pivot position of the cleft sentence: isform féin doreg hitossuch ‘it is on myself that I will touch at first.’ This designation is important for tracking coreference across clausal boundaries¢ since cleft sentences consist of two clauses: the pivot (isform féin ‘it is on myself’) and the cleft or relative clause (doreg hitossuch ‘that I will touch at first’). The subject of the cleft clause may or may not be coreferential with an item in the pivot.,GOV CONTEXT TYPE,GOV CONTEXT
+ELIDED,The governing context for a potential reflexive marker is a sentence that contains an elided constituent. For example¢ in Wb.030c17 the potential reflexive marker is the 3rd person pronominal marking in the constituent asenchassom fadesin ‘his own tradition’ which is the subject of an elided verb which can be identified by the governing context: nistuirmi recht act asenchassom fadesin ‘the Law records them not¢ but his own tradition [records them].’ This designation is important for tracking coreference across clausal boundaries¢ since elision usually occurs in the context of two clauses: the antecedent (nistuirmi recht ‘the law records them not’) and clause containing the elided constituent (act dos-rími asenchassom fadesin ‘but his tradition records them’).,GOV CONTEXT TYPE,GOV CONTEXT
+fem,The morph has the value ‘feminine’ for the Gender feature.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+Infixed_Pronoun,The morph is an infixed pronoun in a verbal complex.,MORPH ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS
+masc,The morph has the value ‘masculine’ for the Gender feature.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+N/A,There is no information to report.,EVERY COLUMN,The colum where the tag is found.
+neut,The morph has the value ‘neuter’ for the Gender feature.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+Noun,The morph is a noun.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+NP,The morph is a nominal phrase without any further specifications because the context is fragmentary.,MORPH CONTEXT,MORPH/MORPH TRANS/MORPH ANALYSIS
+NP-CLEFT,The constituent so designated is a nominal pivot in a cleft sentence.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE,MORPH/MORPH TRANS/MORPH ANALYSIS
+NP-OBJ,The constituent so designated is a nominal object.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE,MORPH/MORPH TRANS/MORPH ANALYSIS
+NP-PRED,The constituent so designated is a nominal predicate.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE,MORPH/MORPH TRANS/MORPH ANALYSIS
+NP-SBJ,The constituent so designated is a nominal subject.,MORPH CONTEXT,MORPH/MORPH TRANS/MORPH ANALYSIS
+Null_Pronoun,The morph is a null pronoun¢ i.e. little pro.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+Overt_Pronoun,The morph is an over pronoun. This often refers to the so-called notae augentes or emphasis pronouns that usually start with /s/. This main forms are som¢ sa/se¢ su/siu¢ si¢ or ni.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+pl,The morph has the value ‘plural’ for the Number feature.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+POSS,The constituent so designated contains a possessive pronoun.,SBJ~OTHER,MORPH/MORPH TRANS/MORPH ANALYSIS
+Possessive,The morph is a possessive pronoun.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+PP,The morph is a prepositional phrase without any further specifications because the context is fragmentary.,MORPH CONTEXT,MORPH/MORPH TRANS/MORPH ANALYSIS
+PP-COMP,The constituent so designated is the complement of prepositional phrase.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE¢ SBJ~OTHER,MORPH/MORPH TRANS/MORPH ANALYSIS
+PRO,The subject is a null pronominal that can be analysed as big PRO.,SUBJECT ANALYSIS¢ SBJ~MORPH COREFERENCE¢ SBJ~OTHER,CLAUSAL SUBJECT
+PRON,The morph is a pronoun without any further specifications because the context is fragmentary.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE,MORPH/MORPH TRANS/MORPH ANALYSIS
+PRON-CLEFT,The constituent so designated is the pronominal pivot in a cleft sentence.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE,MORPH/MORPH TRANS/MORPH ANALYSIS
+PRON-OBJ,The constituent so designated is a pronominal object¢ either infixed into the verbal complex or suffixed to a simple verb.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE,MORPH/MORPH TRANS/MORPH ANALYSIS
+PRON-PRED,The constituent so designated is a pronominal predicate.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE,MORPH/MORPH TRANS/MORPH ANALYSIS
+PRON-SBJ,The constituent so designated is a pronominal subject.,MORPH CONTEXT,MORPH/MORPH TRANS/MORPH ANALYSIS
+Relative,The subject has been relativized.,SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+SBJ,The constituent so designated is the subject.,SBJ~MORPH COREFERENCE¢ SBJ~OTHER,CLAUSAL SUBJECT/SUBJECT ANALYSIS
+SBJ-CLEFT,The constituent so desgnates is the subject of a cleft or relative clause in a cleft sentence.,SBJ~MORPH COREFERENCE¢ SBJ~OTHER,GOV CONTEXT/GOV CONTEXT TYPE/GOV CONTEXT SBJ/GOV CONTEXT SBJ ANALYSIS
+sg,The morph has the value ‘singular’ for the Number feature.,MORPH ANALYSIS¢ SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS/CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+Small Clause,The subject is a small clause.,SUBJECT ANALYSIS¢ GOV CONTEXT SBJ ANALYSIS,CLAUSAL SUBJECT/GOV CONTEXT/GOV CONTEXT SBJ
+Suffixed_Pronoun,The morph is a suffixed pronoun attached to a simple verb.,MORPH ANALYSIS,MORPH/MORPH TRANS/MORPH ANALYSIS
+UNC,The analysis of the morph within its context is unclear.,MORPH CONTEXT,MORPH/MORPH TRANS/MORPH ANALYSIS
+VBN-OBJ,The constituent so designated is the object of a verbal noun.,MORPH CONTEXT¢ SBJ~MORPH COREFERENCE¢ SBJ~OTHER,MORPH/MORPH TRANS/MORPH ANALYSIS
+VBN-SBJ,The constituent so designated is the subject of a verbal noun.,MORPH CONTEXT¢ SBJ~OTHER,MORPH/MORPH TRANS/MORPH ANALYSIS
+VERB,The governing context for a potential reflexive marker is a clause headed by a verb. For example¢ in Wb.032a09¢ the potential reflexive marker is the pronominal marking in the constituent imgnaís feín ‘in my own presence’ or ‘with myself’ which is found in the infinitival clause abuith imgnaís feín arahireschi ‘him to be in my own presence/with myself becaues of his faithfulness’ which is the complement of the governing verb dofuthrisse ‘I could wish’. This designation is important for tracking coreference across clausal boundaries¢ since there may be coreference between the subject of the governing verb and a consituent in the embedded (lower) clause.,GOV CONTEXT TYPE,GOV CONTEXT
+VERB-SBJ,The consituent so desginated is the subject of a verb in a clause governing an embedded (lower) clause containing a possible reflexive marker.,SBJ~OTHER,GOV CONTEXT/GOV CONTEXT TYPE/GOV CONTEXT SBJ/GOV CONTEXT SBJ ANALYSIS
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,%
+%,
